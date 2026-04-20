@@ -17,22 +17,11 @@ Download [SAM checkpoint](https://dl.fbaipublicfiles.com/segment_anything/sam_vi
 
 ## Example
 
-1. The dataset is placed in "./data/eye", and the file structure of dataset is:
-
-EYE/
-
-     EYE_Test_Data/...
-     
-     EYE_Training_Data/...
-     
-     EYE_Test_GroundTruth.csv
-     
-     EYE_Training_GroundTruth.csv
     
-2. Train: ``python train.py -net sam -mod sam_adpt -exp_name *eye* -sam_ckpt ./checkpoint/sam/sam_vit_b_01ec64.pth -image_size 1024 -b 32 -dataset eye --data_path *../data*``
+1. Train: ``python train.py -net sam -mod sam_adpt -exp_name *eye* -sam_ckpt ./checkpoint/sam/sam_vit_b_01ec64.pth -image_size 1024 -b 32 -dataset eye --data_path *../data*``
  
 
-3. Evaluation: The code can automatically evaluate on the test set during traing, and you can also manually evaluate it by running val.py for.
+2. Evaluation: The code can automatically evaluate on the test set during traing, and you can also manually evaluate it by running val.py for.
 
 
 Results will be saved at `` ./logs/`` in default.
