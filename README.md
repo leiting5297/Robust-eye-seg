@@ -1,4 +1,4 @@
-# Robust-eye-seg
+# Prior-Guided-SAM
 A robust near-eye image segmentation method based on [SAM](https://github.com/facebookresearch/segment-anything) and spatial Adapter, which freezes the pre-trained SAM encoder and inserts a lightweight spatial adaptation module to achieve efficient domain transfer while preserving the strong generalization and segmentation capability of the foundation model. 
 
 
