@@ -7,7 +7,7 @@ A robust near-eye image segmentation method based on [SAM](https://github.com/fa
 Download [SAM checkpoint](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth), and put it at ./checkpoint/sam/
 
 ## Dataset
-
+[near-eye-image](https://ieee-dataport.org/documents/near-eye-image), sampling from
 @article{fuhl2021teyed,
   title={TEyeD: Over 20 million real-world eye images with pupil, eyelid, and iris 2d and 3d segmentations, 2d and 3d landmarks, 3d eyeball, gaze vector, and eye movement types},
   author={Wolfgang Fuhl and Gjergji Kasneci and Enkelejda Kasneci},
